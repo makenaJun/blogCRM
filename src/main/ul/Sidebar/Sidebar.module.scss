@@ -1,0 +1,24 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 15vw;
+  height: 95vh;
+  border-right: 1px dashed #ccc;
+  align-items: center;
+}
+
+.link {
+  margin: 3px;
+  text-decoration: none;
+  background: #e5e5e5;
+  width: 95%;
+  padding: 2px 5px;
+  border-radius: 4px;
+  color: #191919;
+  box-sizing: border-box;
+
+  &:hover {
+    background: #004e4e;
+    color: #ffffff;
+  }
+}
